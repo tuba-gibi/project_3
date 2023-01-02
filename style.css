@@ -113,11 +113,16 @@ footer {
   background-color: rgb(78, 74, 74);
   color: white;
   height: 80px;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   justify-content: center;
   align-items: center;
   text-align: center;
+  position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
 }
 
 .about-content {
